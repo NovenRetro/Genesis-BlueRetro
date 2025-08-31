@@ -1,0 +1,23 @@
+{
+  "name": "GENESIS BlueRetro",
+  "version": "25.04_H1",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "bootloader.bin",
+          "offset": 4096
+        },
+        {
+          "path": "partition-table.bin",
+          "offset": 32768
+        },
+        {
+          "path": "BlueRetro_hw1_genesis.bin",
+          "offset": 65536
+        }
+      ]
+    }
+  ]
+}
